@@ -1,7 +1,7 @@
 #!/bin/bash
 #Tải các file lên github
 #Tài khoản tuananh1406
-#pass tanh88a5
+#pass ****88a5
 #cd ssg/
 url=git@github.com:tuananh1406/website.git
 #git init
