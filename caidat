@@ -1,0 +1,18 @@
+#Cài đặt django và venv
+#Cài đặt venv
+sudo pip3 install virtualenv
+#Tạo môi trường venv
+virtualenv venv -p python3
+#Kích hoạt venv
+source venv/bin/activate
+#Cài đặt django
+pip install django
+#Tạo project
+django-admin startproject thanhspot
+#Tạo ứng dụng
+django-admin startapp khohang
+#Thêm ứng dụng mới tạo
+cd thanhspot/
+vim thanhspot/settings.py
+#Thêm kho hàng vào phần INSTALLED_APPS
+
